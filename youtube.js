@@ -33,8 +33,8 @@ export const youtubeChannels = [
     channelName: "YouTube Playlist - Bob Esponja",
     videos: [
       {
-        src: "https://www.youtube.com/embed/x3A7NsFaezU?si=t0Pw-0vwKOHgihxO&amp;controls=0",
-        duration: 9 * 60 + 45,
+        src: "https://www.youtube.com/embed/0ssLZUuPQpM?si=9ave2_2IMLITtXop&amp;controls=0",
+        duration: 33,
       },
     ],
   },
