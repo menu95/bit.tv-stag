@@ -1,11 +1,31 @@
 // youtube.js
 export const youtubeChannels = [
   {
-    channelName: "YouTube Playlist - TBBT Best Moments",
+    channelName: "YouTube Playlist - picapau",
     videos: [
       {
-        src: "https://www.youtube.com/embed/zhQesrPE_zA?controls=0",
-        duration: 10 * 60 + 30,
+        src: "https://www.youtube.com/embed/or5h9OugzLI?si=e92ASdNBz4Gi_fwK",
+        duration: 7 * 60 * 60 + 49 * 60 + 2, // 7 hours 49 min 02 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/C-Vy5T-bGY8?si=Eo8RROXSN3zMBHZ6",
+        duration: 2 * 60 * 60 + 34 * 60 + 2, // 2 hours 34 min 02 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/LVE17tSApHI?si=7JwMAxWbDUMJj3jE",
+        duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/mtCIHV5wuEw?si=Ci_aB7qzVfFi6nGr",
+        duration: 2 * 60 * 60 + 33 * 60 + 47, // 2 hours 33 min 47 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/k1b9ND7-jjI?si=tvRp9lgBwDfC00cs",
+        duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/Wghfy0HGVx0?si=MK4wQEbrPr9njzPJ",
+        duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
       },
     ],
   },
