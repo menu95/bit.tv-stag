@@ -68,7 +68,7 @@ export const playYouTubeVideo = (playerContainer, channelIndex) => {
   playerContainer.innerHTML = `
     <iframe 
       id="current-video"
-      src="${currentVideo.src}&start=${currentVideo.startOffset}&autoplay=1" 
+      src="${currentVideo.src}&start=${currentVideo.startOffset}" 
       width="100%" 
       height="100%" 
       frameborder="0"
