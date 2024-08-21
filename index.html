@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebTV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <script src="https://unpkg.com/videojs-youtube@2.6.1/dist/Youtube.min.js"></script>
+
+    <style>
+      .hidden {
+        display: none;
+      }
+      #player-container {
+        width: 103%;
+        height: 103%;
+      }
+      .video-js .vjs-control-bar {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="player-container">
+      <video
+        id="video-player"
+        class="video-js vjs-default-skin"
+        controls
+        autoplay
+      >
+        <source id="video-source" src="geek-tv-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div id="channel-list">
+      <ul>
+        <li
+          data-channel="youtube-video"
+          data-channel-index="0"
+          data-type="iframe"
+        >
+          Canal YouTube (1)
+        </li>
+        <li
+          data-channel="youtube-video"
+          data-channel-index="1"
+          data-type="iframe"
+        >
+          Canal YouTube (Bob Esponja)
+        </li>
+        <li
+          data-src="https://cors-anywhere-d1oq.onrender.com/https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63d2ba2f60bc8f0008981a0e/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown"
+          data-type="m3u8"
+          data-channel="series-sci-fi-pluto-tv"
+        >
+          <img
+            src="https://images.pluto.tv/channels/63d2ba2f60bc8f0008981a0e/colorLogoPNG.png"
+            alt="Séries Sci-Fi | Pluto TV"
+          />
+          <div class="channel-info">
+            <div class="channel-title">Séries Sci-Fi</div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+        <li
+          data-src="https://cors-anywhere-d1oq.onrender.com/https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63eb9c5351f5d000085e8d7e/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown"
+          data-type="m3u8"
+          data-channel="csi-miami-pluto-tv"
+        >
+          <img
+            src="https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png"
+            alt="CSI Miami | Pluto TV"
+          />
+          <div class="channel-info">
+            <div class="channel-title">CSI Miami</div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+
+        <li
+          data-src=""
+          data-type="iframe"
+          data-channel="google-drive-video"
+          data-channel-index="0"
+        >
+          <img src="" alt="Google Drive Video" />
+          <div class="channel-info">
+            <div class="channel-title">The Big Bang Theory - Temporada 8</div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+
+        <li
+          data-src=""
+          data-type="iframe"
+          data-channel="google-drive-video"
+          data-channel-index="1"
+        >
+          <img src="" alt="Google Drive Video" />
+          <div class="channel-info">
+            <div class="channel-title">
+              The Big Bang Theory - Temporada 9 (Parte 1)
+            </div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+
+        <li
+          data-src="https://cors-anywhere-d1oq.onrender.com/https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/620ff46e0a576e0007dc2f89/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown"
+          data-type="m3u8"
+          data-channel="icarly-pluto-tv"
+        >
+          <img
+            src="https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png"
+            alt="iCarly | Pluto TV"
+          />
+          <div class="channel-info">
+            <div class="channel-title">iCarly</div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+
+        <li
+          data-src="https://www.youtube.com/embed/zhQesrPE_zA?si=UpOADd4mCrw0NfAS&amp;controls=0"
+          data-type="iframe"
+          data-channel="youtube"
+          data-channel-index="0"
+          onclick="updateVideoSource()"
+        >
+          <img src="" alt="YouTube Video" />
+          <div class="channel-info">
+            <div class="channel-title">Canal do YouTube</div>
+            <span class="program-info"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div id="epg">
+      <div id="epg-header">EPG Diário</div>
+      <ul id="epg-list"></ul>
+    </div>
+
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
