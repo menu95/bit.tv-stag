@@ -8,23 +8,23 @@ export const youtubeChannels = [
         duration: 7 * 60 * 60 + 49 * 60 + 2, // 7 hours 49 min 02 sec
       },
       {
-        src: "https://www.youtube.com/embed/C-Vy5T-bGY8?si=Eo8RROXSN3zMBHZ6",
+        src: "https://www.youtube.com/embed/C-Vy5T-bGY8?si=6auUxeff16Mso8sF&amp;controls=0",
         duration: 2 * 60 * 60 + 34 * 60 + 2, // 2 hours 34 min 02 sec
       },
       {
-        src: "https://www.youtube.com/embed/LVE17tSApHI?si=7JwMAxWbDUMJj3jE",
+        src: "https://www.youtube.com/embed/LVE17tSApHI?si=X4tBcTc3hBFy0KQl&amp;controls=0",
         duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
       },
       {
-        src: "https://www.youtube.com/embed/mtCIHV5wuEw?si=Ci_aB7qzVfFi6nGr",
+        src: "https://www.youtube.com/embed/mtCIHV5wuEw?si=Qb_WF5FHmr6kYH6x&amp;controls=0",
         duration: 2 * 60 * 60 + 33 * 60 + 47, // 2 hours 33 min 47 sec
       },
       {
-        src: "https://www.youtube.com/embed/k1b9ND7-jjI?si=tvRp9lgBwDfC00cs",
+        src: "https://www.youtube.com/embed/k1b9ND7-jjI?si=Bsn0SXuKLyaM4URW&amp;controls=0",
         duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
       },
       {
-        src: "https://www.youtube.com/embed/Wghfy0HGVx0?si=MK4wQEbrPr9njzPJ",
+        src: "https://www.youtube.com/embed/Wghfy0HGVx0?si=Ew62qUkn0-MIuEGy&amp;controls=0",
         duration: 2 * 60 * 60 + 33 * 60 + 31, // 2 hours 33 min 31 sec
       },
     ],
