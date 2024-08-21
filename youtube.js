@@ -4,7 +4,7 @@ export const youtubeChannels = [
     channelName: "YouTube Playlist - picapau",
     videos: [
       {
-        src: "https://www.youtube.com/embed/or5h9OugzLI?si=e92ASdNBz4Gi_fwK",
+        src: "https://www.youtube.com/embed/or5h9OugzLI?si=AoMf6iHAxJeZjm0P&amp;controls=0",
         duration: 7 * 60 * 60 + 49 * 60 + 2, // 7 hours 49 min 02 sec
       },
       {
