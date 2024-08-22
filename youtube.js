@@ -94,6 +94,19 @@ export const youtubeChannels = [
       },
     ],
   },
+  {
+    channelName: "YouTube Playlist - O show dos looney tunes",
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/9hvc_XDLs1o?si=3WO_bZbkq6otZ1at&amp;controls=0",
+        duration: 1 * 60 * 60 + 10 * 60 + 55, // 1 horas 10 min 55 seg
+      },
+      {
+        src: "https://www.youtube.com/embed/6tZMpieIDgc?si=ISMCrZpXSS04PJbo&amp;controls=0",
+        duration: 2 * 60 * 60 + 3 * 60 + 29, // 2 horas 03 min 29 seg
+      },
+    ],
+  },
 ];
 
 const startTime = new Date("2024-05-28T11:10:00Z");
