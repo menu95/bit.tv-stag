@@ -30,11 +30,36 @@ export const youtubeChannels = [
     ],
   },
   {
-    channelName: "YouTube Playlist - Bob Esponja",
+    channelName: "YouTube Playlist - Todo mundo odeia o chris",
     videos: [
       {
         src: "https://www.youtube.com/embed/0ssLZUuPQpM?si=9ave2_2IMLITtXop&amp;controls=0",
         duration: 33,
+      },
+    ],
+  },
+  {
+    channelName: "YouTube Playlist - Eu a patroa e as crianças",
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/KT0u74pyo3Q?si=7gYLwPk_uY8c9zOe&amp;controls=0",
+        duration: 3 * 60 * 60 + 57 * 60 + 40, // 1 temporada 3 horas 57 min 40 seg
+      },
+      {
+        src: "https://www.youtube.com/embed/ZIsq7WWTu7s?si=4bQAMzwAGLw-jH-V&amp;controls=0",
+        duration: 10 * 60 * 60 + 12 * 60 + 57, // 2 temporada 10 horas 12 min 57 seg
+      },
+      {
+        src: "https://www.youtube.com/embed/c-XVaNOouQk?si=6BFA-iYMFk4FWgYI&amp;controls=0",
+        duration: 9 * 60 * 60 + 38 * 60 + 28, // 3 temporada 9 horas 38 min 28 seg
+      },
+      {
+        src: "https://www.youtube.com/embed/mrtD9U3zTso?si=a1xLG_f3DpDt4nce&amp;controls=0",
+        duration: 10 * 60 * 60 + 40 * 60 + 5, // 4 temporada 10 horas 40 min 05 seg
+      },
+      {
+        src: "https://www.youtube.com/embed/rDohXLxqcdw?si=2ETG_OWHf-R7gNdg&amp;controls=0",
+        duration: 9 * 60 * 60 + 26 * 60 + 52, // 5 temporada 9 horas 26 min 52 seg
       },
     ],
   },
