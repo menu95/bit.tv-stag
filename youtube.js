@@ -29,6 +29,37 @@ export const youtubeChannels = [
       },
     ],
   },
+
+  {
+    channelName: "YouTube Playlist - Tom e Jerry",
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/aGUaNqitFPA?si=Tb5URe909bOnEKx7&amp;controls=0",
+        duration: 59 * 60 + 29, // 59 min 29 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/px0whOy_BCE?si=Cq91fQWR5jyRhSn1&amp;controls=0",
+        duration: 59 * 60 + 5, // 59 min 05 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/AnrlzQyYapY?si=sA-m-d1nkwi-Qkgo&amp;controls=0",
+        duration: 59 * 60 + 50, // 59 min 50 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/e0zxuBzGYnI?si=sUJGaWjj7lWJZAw8&amp;controls=0",
+        duration: 1 * 60 * 60 + 1 * 60 + 23, // 1 hours 01 min 23 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/rLbY-xZQUyw?si=sHRo9yUH6-ZA2660&amp;controls=0",
+        duration: 58 * 60 + 33, // 58 min 33 sec
+      },
+      {
+        src: "https://www.youtube.com/embed/zpSHhkvLQMA?si=QZEzejxpyd64xFk9&amp;controls=0",
+        duration: 59 * 60 + 51, // 59 min 51 sec
+      },
+    ],
+  },
+
   {
     channelName: "YouTube Playlist - Todo mundo odeia o chris",
     videos: [
