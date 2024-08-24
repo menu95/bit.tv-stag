@@ -64,7 +64,7 @@ export const youtubeChannels = [
     channelName: "YouTube Playlist - Todo mundo odeia o chris",
     videos: [
       {
-        src: "https://www.youtube.com/embed/0ssLZUuPQpM?si=9ave2_2IMLITtXop&amp;controls=0",
+        src: "https://www.youtube.com/embed/giy-8JXeLkY?si=DfZTdH5PVGUk3KPG&amp;controls=0",
         duration: 33,
       },
     ],
